@@ -1,0 +1,32 @@
+Exceptions Handling: The program is terminated abnormally is called exception.
+
+Definition: Exception is an event that termintates the program abnormally.
+
+* An unexcepted event that terminates program is called exception.
+* Whenever the exception is raised the program will be terminated abnormally and rest of the program will not get executed.
+* To overcome this problem we should handle the exception.
+* If we handle the exception the program will be executed normally and rest of the application also will get executed.
+* The main importance of exeption handling is to get normal termination of the application(program) to execute the rest of the appliation(program) normally.
+* It termiates the application normally to execute the rest of the application.
+* To get the normal termination of the application and to execute the rest 
+---------------------------------------------------------------------------------------------
+2 ways to handle the exception:
+Approach 1: handle the exception by using try-catch block
+Approach2: handle the exception by using throws keyword
+
+Types of exceptions: As per SUN Micro Systems we have three type of exceptions
+1. checked exception
+2. un-checked exception
+3. Error
+-----------------------------------------------------------------------------------------------
+un-checked exception: The exceptions which are not checked by compiler are called un-checked exception.
+* If application contains unchecked exception code is compiled but exception raised at run time by JVM.
+* If application raises unchecked exception at run time, handle that exception through two approaches either by using try-catch block or by using throws keyword.
+
+---------------------------------------------------------------------------------------
+checked exeption: The exception which are checked by compiler are called 
+
+
+
+
+

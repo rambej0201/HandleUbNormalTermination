@@ -1,0 +1,88 @@
+Possibilities of Try-Catch blocks:
+----------------------------------------------------
+1.
+try 
+{
+}
+catch()
+{
+}
+
+2.
+try
+{
+}
+catch
+{
+}
+;;;;;;;;;;
+;;;;;;;;
+//after peice of code again we can declare try-catch blocks
+try
+{
+}
+catch()
+{
+}
+
+3.
+try
+{
+}
+catch()
+{
+}
+//it is possible to decalre multiple catch blocks in one try-catch
+catch()
+{
+}
+catch()
+{
+}
+
+4.
+try
+{
+	//we can decalre another try-catch block inside tr-block
+	try{
+		}
+	catch()
+	{
+	}
+}
+5.
+try
+{
+}
+catch()
+{
+	//inside catch alos it is possible to decalre another try-catch blocks
+	try
+	{
+	}
+	catch()
+	{
+	}
+}
+
+6.
+try
+{
+	//it is possible to decalre another try catch block in try block
+	try
+	{
+	}
+	catch()
+	{
+	}
+}
+catch()
+{
+	//we can also declare another try-catch blocks in catch blocks
+	try
+	{
+	}
+	catch()
+	{
+	}
+}

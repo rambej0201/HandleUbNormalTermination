@@ -1,0 +1,9 @@
+We use throw keyword in two situations
+
+Situation Number1: We use throw keyword to handover the user modified predefined exception objects to JVM
+throw new ArithmeticException("Raja / by zero");
+
+Situation Number2: 
+1. JVM is not responsible to handle the user defined exception or objects.
+2. We use throw keyword to handover the user defined exception objects to JVM
+3. User uses new keyword to declare an object and to handover the user defined exception to JVM user uses throw keyword
